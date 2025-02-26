@@ -3,46 +3,102 @@
 body {
     font-family: 'Press Start 2P', cursive;
     background-color: #f8f0dc;
-    text-align: center;
     margin: 0;
     padding: 0;
-}
-
-.pokedex {
-    padding: 20px;
-}
-
-.pokedex-image {
-    width: 150px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 2rem;
-    color: #333;
+
+    text-align: center;
 }
 
-.pokemon-list {
+.pokedeximagen {
+    width: 150px;
+    padding: 20px;
+    text-align: left;
+}
+
+.pokemonlista {
     list-style: none;
     padding: 0;
-}
-
-.pokemon-list li {
     margin: 10px 0;
-}
-
-.pokemon-list a {
     text-decoration: none;
     font-size: 1.2rem;
-    color: #d32f2f;
+    color: #bf2e2e;
     font-weight: bold;
+
 }
 
-.pokemon-list a:hover {
-    color: #ff5722;
+img {
+    margin: 20px 0;
+    width: 50%;
 }
 
-img { 
-  
-  text-align: center;
+/* Estilos específicos para "Volver a inicio" */
+.volver-inicio {
+    background-color: #ffffff; /* Color rojo */
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    display: inline-block;
+    font-family: 'Press Start 2P', cursive;
+}
 
+/* Estilos específicos para el tipo */
+.fuego {
+    background-color: #d32f2f; /* Color rojo */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.fantasma {
+    background-color: #8A2BE2; 
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.veneno {
+    background-color: #BA55D3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.siniestro {
+    background-color: #282828;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.Psiquico {
+    background-color: #ef4179;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+
+/* Estilos para la descripción */
+.descripcion {
+    font-size: 0.8em;
+    color: #333;
+    line-height: 1.5;
+    margin: 10px 0;
 }
