@@ -31,8 +31,8 @@ h1 {
 }
 
 img {
-    margin: 20px 0;
-    width: 50%;
+    margin: 0px 0;
+    width: 15%;
 }
 
 /* Estilos específicos para "Volver a inicio" */
@@ -94,6 +94,91 @@ img {
     display: inline-block;
 }
 
+.lucha {
+    background-color: #ff8000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.volador {
+    background-color: #81b9ef;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.charizard {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.charizard li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 120px;
+}
+
+.charizard img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.charizard a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.gastly {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gastly li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 120px;
+}
+
+.gastly img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.gastly a {
+    text-decoration: none;
+    color: #8A2BE2;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
 
 /* Estilos para la descripción */
 .descripcion {
