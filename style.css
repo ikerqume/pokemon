@@ -8,28 +8,6 @@ body {
     text-align: center;
 }
 
-h1 {
-
-    text-align: center;
-}
-
-.pokedeximagen {
-    width: 150px;
-    padding: 20px;
-    text-align: left;
-}
-
-.pokemonlista {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: #bf2e2e;
-    font-weight: bold;
-
-}
-
 img {
     margin: 0px 0;
     width: 15%;
@@ -175,6 +153,74 @@ img {
 .gastly a {
     text-decoration: none;
     color: #8A2BE2;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.Abra {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Abra li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 120px;
+}
+
+.Abra img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.Abra a {
+    text-decoration: none;
+    color: #ef4179;
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.Riolu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Riolu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    width: 120px;
+}
+
+.Riolu img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.Riolu a {
+    text-decoration: none;
+    color: #ff8000;
     font-weight: bold;
     font-size: 0.9rem;
     text-align: center;
