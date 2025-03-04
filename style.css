@@ -90,6 +90,15 @@ img {
     display: inline-block;
 }
 
+.acero {
+    background-color: #CCCCCC;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    display: inline-block;
+}
+
 .charizard {
     list-style: none;
     padding: 0;
