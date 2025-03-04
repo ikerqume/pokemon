@@ -232,7 +232,7 @@ img {
     color: #ff8000;
     font-weight: bold;
     font-size: 0.9rem;
-    text-align: center;
+    text-align:center
 }
 
 /* Estilos para la descripción */
@@ -241,4 +241,6 @@ img {
     color: #333;
     line-height: 1.5;
     margin: 10px 0;
+    margin-left: 400px;
+    margin-right: 400px;
 }
